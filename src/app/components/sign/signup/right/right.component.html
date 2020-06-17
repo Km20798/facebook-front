@@ -1,0 +1,56 @@
+<div class="work">
+  <h1>Create a new account</h1>
+  <h4>It's quick and easy.</h4>
+  <div class="form">
+    <form (ngSubmit)="addUser()">
+      <div class="name">
+        <div class="form-group">
+          <input type="text" class="form-control" name="firstname" [(ngModel)]="user.firstname" placeholder="First name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control sur" name="surname" [(ngModel)]="user.surname" placeholder="Sur name">
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="email" [(ngModel)]="user.email" placeholder="Email address">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" name="password" [(ngModel)]="user.password" placeholder="New password">
+      </div>
+      <div class="form-group">
+        <label for="birthday">Birthday</label>
+        <div class="select">
+          <select name="day" [(ngModel)]="day" >
+            <option>Day</option>
+            <option *ngFor="let day of days">{{day}}</option>
+          </select>
+          <select name="month" [(ngModel)]="month" >
+            <option>Month</option>
+            <option *ngFor="let month of months" >{{month}}</option>
+          </select>
+          <select name="year" [(ngModel)]="year" >
+            <option>Year</option>
+            <option *ngFor="let year of years" >{{year}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="fom-group">
+        <label for="gender">Gender</label>
+        <div class="gender">
+          <div class="male">
+            <input type="radio" name="gender"  value="male" [(ngModel)]="user.gender"><span>Male</span>
+          </div>
+          <div class="female">
+            <input type="radio" name="gender" value="female" [(ngModel)]="user.gender" ><span>Female</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <p>
+          By clicking Sign Up, you agree to our <a href="">Terms, Data Policy</a> and <a href="">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+        </p>
+      </div>
+      <button class="btn btn-success">Sign Up</button>
+    </form>
+  </div>
+</div>

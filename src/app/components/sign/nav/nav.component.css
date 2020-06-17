@@ -1,0 +1,30 @@
+.nav{
+  background-color: #0b0b9e;
+}
+.link{
+  margin-left: 10%;
+}
+.link h3{
+  color: white;
+  font-size: 40px;
+}
+form{
+  margin-right: 8%;
+  
+}
+table{
+  color: white;
+}
+table input{
+  margin-right: 10px;
+  padding-left: 5px;
+  height: 24px;
+}
+table button{
+  color: white;
+  background-color: blue;
+  border: blue;
+}
+table a{
+  color: #bdbab6;
+}

@@ -1,0 +1,54 @@
+.work{
+  padding-left: 10%;
+  margin-top: 2%;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.name{
+  display: flex;
+}
+.sur{
+  margin-left: 20%;
+}
+.form{
+  margin-top: 5%;
+  width: 76%;
+  padding-bottom: 10%;
+}
+label{
+  font-weight: bold;
+  color: #afaba6;
+}
+.select{
+  margin-top: -1%;
+}
+select{
+  height: 30px;
+  width: 90px;
+  margin-left: 1%;
+}
+.gender{
+  margin-top: -1%;
+  display: flex;
+}
+.male , .female{
+  margin-left: 3%;
+}
+span{
+  padding-left: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #63615f;
+}
+p{
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 13px;
+}
+button{
+  width: 50%;
+  background-color: #28b940;
+  font-weight: bolder;
+}

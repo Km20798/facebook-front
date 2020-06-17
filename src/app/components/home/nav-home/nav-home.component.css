@@ -1,0 +1,40 @@
+.nav{
+  background-color: #5f58c1 ;
+  height: 50px;
+}
+.nav .link{
+  margin-left: 10%;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+ul{
+  margin-right: 20%;
+  list-style: none;
+  color: white;
+  display: flex;
+}
+li{
+  padding: 0% 15% 0% 0%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:focus{outline: none;}
+.user{
+  display: flex;
+}
+.user label{
+  margin-left: 10%;
+}
+img{
+  width: 25px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+form{
+  margin-left: 5%;
+}
+.inp{
+
+}

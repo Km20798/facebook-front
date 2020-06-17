@@ -1,0 +1,12 @@
+.work{
+  display: flex;
+  background-color: #e6e9ea;
+  height: 100%;
+}
+.right{
+  width: 50%;
+  height: 100%;
+}
+.left{
+  width: 50%;
+}
